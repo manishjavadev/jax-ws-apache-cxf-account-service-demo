@@ -35,11 +35,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AccountInfoType }
+     * Create an instance of {@link AccountInquiryResponseType }
      * 
      */
-    public AccountInfoType createAccountInfoType() {
-        return new AccountInfoType();
+    public AccountInquiryResponseType createAccountInquiryResponseType() {
+        return new AccountInquiryResponseType();
     }
 
     /**
@@ -51,19 +51,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AccountInquiryResponseType }
-     * 
-     */
-    public AccountInquiryResponseType createAccountInquiryResponseType() {
-        return new AccountInquiryResponseType();
-    }
-
-    /**
      * Create an instance of {@link AccountResponseType }
      * 
      */
     public AccountResponseType createAccountResponseType() {
         return new AccountResponseType();
+    }
+
+    /**
+     * Create an instance of {@link AccountInfoType }
+     * 
+     */
+    public AccountInfoType createAccountInfoType() {
+        return new AccountInfoType();
     }
 
     /**
